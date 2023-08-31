@@ -1,0 +1,37 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh; 
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.zahl{
+    padding: 4rem;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    overflow: hidden;
+    position: relative;
+}
+.zahl1{
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.btn{
+    padding:1rem 6rem !important ;
+    font-size:3rem !important ;
+    border-radius: 2rem !important;
+}
+.spanItem{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
